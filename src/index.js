@@ -10,15 +10,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Welcome to Banka
+        Welcome to Bankad
       </div>
     )
   }
 }
 
 ReactDom.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+    <App />,
   document.getElementById('root')
 )
