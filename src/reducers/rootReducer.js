@@ -1,7 +1,8 @@
-const initialState = {};
+import formsReducer from './formsReducer';
+import { combineReducers } from 'redux';
 
-const rootReducer = (state = initialState, action) => {
-  return state
-}
+const rootReducer = combineReducers({
+  forms: formsReducer,
+});
 
 export default rootReducer;

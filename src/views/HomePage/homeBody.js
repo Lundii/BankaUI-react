@@ -1,6 +1,8 @@
 import React from 'react';
 import styledComponents from '../../styledComponents';
+import image from '../../assets/images/image7.jpg';
 
+console.log(image)
 const { HomeBackgroundImage, HomeText} = styledComponents;
 
 const HomeBody = (props) => {

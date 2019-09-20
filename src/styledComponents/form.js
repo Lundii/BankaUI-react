@@ -29,4 +29,5 @@ export const FormInput = styled.input`
   box-sizing: border-box;
   background-color: ${props => props.type === 'button' ? 'rgb(18, 18, 107);' : 'rgb(255, 255, 255);'}
   color: ${props => props.type === 'button' ? 'white' : 'black'};
+  cursor: ${props => props.type === 'button' ? 'pointer' : 'auto'};
 `

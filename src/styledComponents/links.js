@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 
-export const StyledLink = styled.a`
+export const StyledLink = styled(Link)`
   color: ${props => props.theme.default};
   margin: ${props => props.margin || "0 50px 0 0"};
   font-size: 20px;
